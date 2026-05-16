@@ -2,97 +2,132 @@
 
 ## 1. Motivation
 
-Social media platforms such as Instagram have become highly important for communication, marketing, and digital branding. Influencers interact with millions of users every day, but having a large number of followers does not always guarantee high engagement.
+## 2. Research Questions and Hypotheses
+### Main Research Question
 
-This project aims to analyze Instagram influencer data and investigate how factors such as follower count, average likes, posting activity, and engagement rate affect influencer popularity and audience interaction.
-
-The motivation behind this project is to better understand which features contribute most to influencer success and engagement on Instagram.
-
----
-
-## 2. Research Question
-
-How do follower count, engagement rate, posting activity, and audience interaction affect influencer popularity and engagement on Instagram?
+How do follower count, engagement rate, posting activity, and audience interaction affect influencer popularity on Instagram?
 
 ---
 
-## 3. Hypotheses
+### Sub-Questions
 
-- H1: Influencers with higher follower counts tend to receive higher average likes.
-- H2: Higher engagement rates are associated with higher influence scores.
-- H3: Posting activity positively affects total engagement.
-- H4: Engagement per follower differs among influencers from different countries.
-
----
-
-## About the Project
-In this project, I worked with Instagram influencer data and tried to understand how followers, likes, and engagement rates are connected to influencer popularity.
-
-I wanted to explore what makes some influencers more successful and active than others using data science methods.
+- Do influencers with more followers always receive higher average likes?
+- Is engagement rate strongly related to influence score?
+- Does posting activity increase audience interaction?
+- Are there observable engagement differences between influencers from different countries?
+- Can machine learning models predict influencer engagement using Instagram metrics?
 
 ---
 
-## Dataset
-The dataset includes information about Instagram influencers such as:
+### Hypotheses
+
+H1: Influencers with higher follower counts tend to receive higher average likes.
+
+H2: Higher engagement rates are associated with higher influence scores.
+
+H3: Posting activity positively affects total engagement.
+
+H4: Engagement per follower differs among influencers from different countries.
+
+H5: Follower count alone is not sufficient to explain engagement rate.
+
+H0 (Null Hypothesis): Instagram engagement metrics do not have a statistically significant relationship with influencer popularity.
+
+## 3. Data Source and Collection
+The dataset used in this project contains Instagram influencer statistics collected from publicly available social media data sources.
+
+The dataset includes numerical and categorical variables related to influencer popularity, engagement, and audience interaction.
+
+Main variables used in the analysis:
 
 - follower count
 - average likes
 - engagement rate
 - total likes
-- country
+- number of posts
 - influence score
+- country
 
-The dataset contains Instagram influencer statistics collected from publicly available social media data.
+During preprocessing, numerical abbreviations such as "k", "m", and "b" were converted into numerical values.
 
-Dataset file:
-`dataset.csv`
+Percentage columns were cleaned and transformed into float variables for statistical analysis and machine learning implementation.
 
----
+Missing values and duplicated rows were removed before analysis.
 
-## What I Did
-In this project, I:
+## 4. Data Description
+| Variable | Description | Purpose |
+|---|---|---|
+| Followers | Total follower count of influencer | Measures popularity |
+| Average Likes | Average likes per post | Measures audience interaction |
+| Engagement Rate | Percentage of audience engagement | Main engagement metric |
+| Total Likes | Overall received likes | Measures total interaction |
+| Posts | Number of posts shared | Measures posting activity |
+| Influence Score | Overall influencer popularity score | Target analysis variable |
+| Country | Influencer country information | Used for group comparison |
 
-- cleaned and organized the data
-- explored the dataset using graphs and visualizations
-- analyzed relationships between variables
-- applied hypothesis testing
-- used machine learning models
+## 5. Methodology
+This project combines exploratory data analysis, statistical analysis, hypothesis testing, and machine learning techniques.
 
----
+### Statistical Analysis
 
-## Tools and Libraries
-Libraries I used in this project:
+The following statistical methods were used:
 
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
+- correlation analysis
+- scatter plots
+- log-log visualizations
+- country-based comparisons
+- engagement distribution analysis
 
----
+The relationships between followers, likes, engagement rate, and influence score were examined using visualizations and correlation analysis.
 
-## Machine Learning
-I used machine learning methods to better understand influencer data and make predictions based on engagement and popularity metrics.
+Log-log plots were additionally used because influencer datasets contain extreme outliers with very large follower counts.
 
----
+### Machine Learning
 
-## Methodology
+Machine learning models were implemented to predict influencer engagement and popularity using Instagram metrics.
 
-The project follows a basic data science workflow.
+The following features were used in the machine learning models:
 
-First, the dataset was cleaned and prepared for analysis. Numerical abbreviations such as "m", "k", and "b" were converted into numeric values, and percentage columns were cleaned.
+- followers
+- average likes
+- engagement rate
+- total likes
+- posts
 
-Then, exploratory data analysis (EDA) was performed using graphs and statistical analysis to understand relationships between followers, likes, engagement, and influence score.
+The dataset was divided into training and testing sets.
 
-After that, new features were created to better analyze influencer activity and engagement patterns.
+The following machine learning approaches were applied:
 
-Finally, machine learning models were applied to examine and predict influencer engagement and popularity.
+- Linear Regression
+- Random Forest Regression
 
----
+Performance evaluation metrics:
 
-## How to Run
-Install the required libraries:
+- R² Score
+- Mean Absolute Error (MAE)
 
-```bash
-pip install -r requirements.txt
-```
+Feature importance analysis was also performed to determine which variables contribute most to influencer engagement prediction.
+
+## 6. Figures and Visualizations
+
+### Followers vs Average Likes
+
+### Log-Log Relationship Plot
+
+### Engagement Rate vs Influence Score
+
+### Country-Based Engagement Comparison
+
+### Actual vs Predicted Engagement
+
+### Feature Importance – Random Forest
+
+## 7. Machine Learning Validation
+
+## 8. Coefficient Analysis
+
+## 9. Conclusion
+
+## 10. Limitations and Future Work
+
+## 11. AI Usage and Academic Integrity
