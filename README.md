@@ -190,7 +190,15 @@ Key observations:
 - Followers and influence score partially explain engagement behavior.
 
 ### Feature Importance – Random Forest
+![Feature Importance](feature_importance.png)
 
+This graph shows which variables contribute most to engagement prediction in the Random Forest model.
+
+Key observations:
+
+- Average likes and total likes are among the strongest predictors.
+- Followers and influence score also contribute to engagement prediction.
+- Different variables affect engagement at different levels.
 ## 7. Machine Learning Validation
 
 ## 8. Coefficient Analysis
