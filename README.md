@@ -1,4 +1,20 @@
 # DSA210 Term Project: Analyzing Instagram Influencer Engagement
+```markdown
+## Table of Contents
+
+1. Motivation
+2. Research Questions and Hypotheses
+3. Data Source and Collection
+4. Data Description
+5. Methodology
+6. Figures and Visualizations
+7. Machine Learning Validation
+8. Coefficient Analysis
+9. Conclusion
+10. Limitations and Future Work
+11. AI Usage and Academic Integrity
+```
+
 ## Project Overview
 
 This project investigates Instagram influencer engagement patterns using exploratory data analysis, visualization techniques, and machine learning models.
