@@ -179,6 +179,15 @@ Key observations:
 - Country demographics may influence interaction patterns.
 
 ### Actual vs Predicted Engagement
+![Actual vs Predicted Engagement](actual_vs_predicted.png)
+
+This graph compares actual engagement values with machine learning predictions.
+
+Key observations:
+
+- The model captures general engagement patterns reasonably well.
+- Some prediction errors still exist because engagement depends on many external factors.
+- Followers and influence score partially explain engagement behavior.
 
 ### Feature Importance – Random Forest
 
