@@ -156,7 +156,17 @@ Key observations:
 - Some influencers achieve very high engagement despite having fewer followers.
 - Engagement rate varies significantly across influencers.
 - Audience interaction is not determined only by follower count.
+### Influence Score vs Average Likes
 
+![Influence Score vs Average Likes](influence_score_vs_likes.png)
+
+This graph shows the relationship between influence score and average likes.
+
+Key observations:
+
+- Influencers with higher influence scores generally receive more average likes.
+- There is a positive relationship between influence score and audience interaction.
+- Engagement is also affected by content quality and audience behavior.
 ### Country-Based Engagement Comparison
 
 ### Actual vs Predicted Engagement
