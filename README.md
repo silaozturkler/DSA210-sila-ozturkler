@@ -168,6 +168,15 @@ Key observations:
 - There is a positive relationship between influence score and audience interaction.
 - Engagement is also affected by content quality and audience behavior.
 ### Country-Based Engagement Comparison
+![Country Engagement](country_engagement.png)
+
+This graph compares average engagement rates across countries.
+
+Key observations:
+
+- Some countries show significantly higher engagement rates.
+- Audience behavior differs across geographic regions.
+- Country demographics may influence interaction patterns.
 
 ### Actual vs Predicted Engagement
 
