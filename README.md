@@ -1,6 +1,18 @@
 # DSA210 Term Project: Analyzing Instagram Influencer Engagement
+## Project Overview
+
+This project investigates Instagram influencer engagement patterns using exploratory data analysis, visualization techniques, and machine learning models.
+
+The analysis focuses on identifying how variables such as followers, average likes, influence score, and audience engagement interact with each other.
+
+Using Python-based data science libraries, the project combines statistical analysis with predictive modeling to better understand influencer performance on social media platforms.
 
 ## 1. Motivation
+Social media platforms have become one of the most important environments for digital marketing and audience interaction. Instagram influencers affect consumer behavior, brand visibility, and online communication through engagement metrics such as likes, comments, and follower interaction.
+
+This project aims to analyze the factors that influence Instagram engagement using data science and machine learning techniques. By examining relationships between follower count, influence score, likes, and audience interaction, the study seeks to better understand how influencer popularity and engagement behavior are connected.
+
+The project also demonstrates how statistical analysis and predictive modeling can be applied to real-world social media datasets.
 
 ## 2. Research Questions and Hypotheses
 ### Main Research Question
@@ -8,7 +20,6 @@
 How do follower count, engagement rate, posting activity, and audience interaction affect influencer popularity on Instagram?
 
 ---
-
 ### Sub-Questions
 
 - Do influencers with more followers always receive higher average likes?
@@ -16,7 +27,6 @@ How do follower count, engagement rate, posting activity, and audience interacti
 - Does posting activity increase audience interaction?
 - Are there observable engagement differences between influencers from different countries?
 - Can machine learning models predict influencer engagement using Instagram metrics?
-
 ---
 
 ### Hypotheses
@@ -65,6 +75,18 @@ Missing values and duplicated rows were removed before analysis.
 | Influence Score | Overall influencer popularity score | Target analysis variable |
 | Country | Influencer country information | Used for group comparison |
 
+## Dataset Description
+
+The dataset contains Instagram influencer statistics collected from publicly available sources.
+
+The dataset includes both numerical and categorical variables related to:
+- popularity
+- audience interaction
+- engagement behavior
+- influence performance
+
+Python libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn were used throughout the analysis process.
+
 ## 5. Methodology
 This project combines exploratory data analysis, statistical analysis, hypothesis testing, and machine learning techniques.
 
@@ -110,6 +132,11 @@ Feature importance analysis was also performed to determine which variables cont
 
 ## 6. Figures and Visualizations
 
+```markdown
+This section presents the visualizations used to explore relationships between Instagram influencer engagement metrics and machine learning results.
+```
+
+
 ### Followers vs Average Likes
 ![Followers vs Average Likes](followers_vs_likes.png)
 
@@ -121,8 +148,9 @@ Key observations:
 - Influencers with more followers generally receive more likes.
 - However, the relationship is not perfectly linear because engagement also depends on content quality and audience interaction.
 
-  ### Correlation Heatmap
-
+```markdown
+### Correlation Heatmap
+```
 ![Correlation Heatmap](heatmap.png)
 
 This heatmap visualizes the relationships between Instagram engagement variables.
@@ -145,6 +173,7 @@ Key observations:
 - Influencers with very large audiences may have lower engagement rates.
 - Smaller influencers sometimes achieve stronger audience interaction.
 - Follower count alone does not determine engagement quality.
+
 ### Top 10 Influencers by Engagement Rate
 
 ![Top Engagement](top_engagement.png)
@@ -156,6 +185,8 @@ Key observations:
 - Some influencers achieve very high engagement despite having fewer followers.
 - Engagement rate varies significantly across influencers.
 - Audience interaction is not determined only by follower count.
+
+  
 ### Influence Score vs Average Likes
 
 ![Influence Score vs Average Likes](influence_score_vs_likes.png)
@@ -167,6 +198,8 @@ Key observations:
 - Influencers with higher influence scores generally receive more average likes.
 - There is a positive relationship between influence score and audience interaction.
 - Engagement is also affected by content quality and audience behavior.
+
+  
 ### Country-Based Engagement Comparison
 ![Country Engagement](country_engagement.png)
 
@@ -199,6 +232,7 @@ Key observations:
 - Average likes and total likes are among the strongest predictors.
 - Followers and influence score also contribute to engagement prediction.
 - Different variables affect engagement at different levels.
+
 ## 7. Machine Learning Validation
 
 A Linear Regression model and a Random Forest model were used to predict engagement rates.
@@ -244,3 +278,5 @@ Artificial Intelligence tools, including ChatGPT, were used to support coding as
 All analysis decisions, interpretations, and final outputs were reviewed and organized by the student.
 
 The project follows academic integrity principles and uses AI only as a supportive educational tool.
+---
+Developed as part of the DSA210 Introduction to Data Science course project.
