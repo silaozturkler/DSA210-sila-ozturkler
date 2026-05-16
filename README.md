@@ -201,10 +201,46 @@ Key observations:
 - Different variables affect engagement at different levels.
 ## 7. Machine Learning Validation
 
+A Linear Regression model and a Random Forest model were used to predict engagement rates.
+
+The prediction results show that Instagram engagement can be partially explained by variables such as followers, influence score, and average likes.
+
+However, engagement behavior is also influenced by content quality, trends, audience loyalty, and external social factors.
+
 ## 8. Coefficient Analysis
+
+Regression analysis suggests that influence score and average likes positively affect engagement rate.
+
+Follower count alone is not always a strong predictor of engagement because smaller influencers may achieve stronger audience interaction.
 
 ## 9. Conclusion
 
+This project analyzed Instagram influencer engagement using data science and machine learning techniques.
+
+The findings suggest that:
+- Engagement is affected by multiple variables.
+- Influence score and audience interaction are important indicators.
+- Large follower counts do not always guarantee high engagement.
+
+Machine learning models can help explain influencer performance patterns, although social media behavior remains complex and dynamic.
+
 ## 10. Limitations and Future Work
 
+This project has several limitations:
+- The dataset may not represent all influencer categories equally.
+- Some engagement-related factors are not directly measurable.
+- Social media trends constantly change over time.
+
+Future studies could include:
+- Sentiment analysis
+- Content-based image analysis
+- Time-series engagement prediction
+- Deep learning models
+
 ## 11. AI Usage and Academic Integrity
+
+Artificial Intelligence tools, including ChatGPT, were used to support coding assistance, debugging, and text editing during this project.
+
+All analysis decisions, interpretations, and final outputs were reviewed and organized by the student.
+
+The project follows academic integrity principles and uses AI only as a supportive educational tool.
