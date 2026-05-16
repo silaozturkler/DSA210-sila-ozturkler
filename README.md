@@ -121,6 +121,19 @@ Key observations:
 - Influencers with more followers generally receive more likes.
 - However, the relationship is not perfectly linear because engagement also depends on content quality and audience interaction.
 
+  ### Correlation Heatmap
+
+![Correlation Heatmap](heatmap.png)
+
+This heatmap visualizes the relationships between Instagram engagement variables.
+
+Key observations:
+
+- Average likes and engagement rate show a strong positive correlation.
+- Follower count has a moderate relationship with total likes.
+- Engagement per follower is strongly associated with engagement rate.
+- Some variables show weak or negative correlations.
+
 ### Log-Log Relationship Plot
 
 ### Engagement Rate vs Influence Score
