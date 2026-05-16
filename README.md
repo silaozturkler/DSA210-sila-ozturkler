@@ -135,8 +135,17 @@ Key observations:
 - Some variables show weak or negative correlations.
 
 ### Log-Log Relationship Plot
+### Top 10 Influencers by Engagement Rate
 
-### Engagement Rate vs Influence Score
+![Top Engagement](top_engagement.png)
+
+This chart shows the influencers with the highest engagement rates.
+
+Key observations:
+
+- Some influencers achieve very high engagement despite having fewer followers.
+- Engagement rate varies significantly across influencers.
+- Audience interaction is not determined only by follower count.
 
 ### Country-Based Engagement Comparison
 
