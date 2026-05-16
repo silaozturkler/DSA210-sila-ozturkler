@@ -134,7 +134,17 @@ Key observations:
 - Engagement per follower is strongly associated with engagement rate.
 - Some variables show weak or negative correlations.
 
-### Log-Log Relationship Plot
+### Followers vs Engagement Rate
+
+![Followers vs Engagement](followers_vs_engagement.png)
+
+This graph illustrates the relationship between follower count and engagement rate.
+
+Key observations:
+
+- Influencers with very large audiences may have lower engagement rates.
+- Smaller influencers sometimes achieve stronger audience interaction.
+- Follower count alone does not determine engagement quality.
 ### Top 10 Influencers by Engagement Rate
 
 ![Top Engagement](top_engagement.png)
