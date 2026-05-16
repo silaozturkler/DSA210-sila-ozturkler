@@ -111,7 +111,7 @@ Feature importance analysis was also performed to determine which variables cont
 ## 6. Figures and Visualizations
 
 ### Followers vs Average Likes
-![Followers vs Average Likes](figures/followers_vs_likes.png)
+![Followers vs Average Likes](followers_vs_likes.png)
 
 This scatter plot shows the relationship between follower count and average likes.
 
