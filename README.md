@@ -111,6 +111,15 @@ Feature importance analysis was also performed to determine which variables cont
 ## 6. Figures and Visualizations
 
 ### Followers vs Average Likes
+![Followers vs Average Likes](figures/followers_vs_likes.png)
+
+This scatter plot shows the relationship between follower count and average likes.
+
+Key observations:
+
+- There is a moderate positive relationship between followers and average likes.
+- Influencers with more followers generally receive more likes.
+- However, the relationship is not perfectly linear because engagement also depends on content quality and audience interaction.
 
 ### Log-Log Relationship Plot
 
