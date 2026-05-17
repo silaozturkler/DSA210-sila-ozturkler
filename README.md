@@ -81,15 +81,17 @@ Percentage columns were cleaned and transformed into float variables for statist
 Missing values and duplicated rows were removed before analysis.
 
 ## 4. Data Description
+
 | Variable | Description | Purpose |
 |---|---|---|
-| Followers | Total follower count of influencer | Measures popularity |
-| Average Likes | Average likes per post | Measures audience interaction |
+| Followers | Total follower count of the influencer | Measures popularity |
+| Average Likes | Average number of likes per post | Measures audience interaction |
 | Engagement Rate | Percentage of audience engagement | Main engagement metric |
-| Total Likes | Overall received likes | Measures total interaction |
-| Posts | Number of posts shared | Measures posting activity |
-| Influence Score | Overall influencer popularity score | Target analysis variable |
-| Country | Influencer country information | Used for group comparison |
+| Total Likes | Total number of likes received | Measures total interaction |
+| Posts | Number of posts shared by the influencer | Measures posting activity |
+| Influence Score | Overall influencer popularity score | Used to analyze influencer performance |
+| Country | Country information of the influencer | Used for country-based comparison |
+
 
 ## Dataset Description
 
@@ -148,13 +150,11 @@ Feature importance analysis was also performed to determine which variables cont
 
 ## 6. Figures and Visualizations
 
-```markdown
 This section presents the visualizations used to explore relationships between Instagram influencer engagement metrics and machine learning results.
-```
 
 
 ### Followers vs Average Likes
-![Followers vs Average Likes](followers_vs_likes.png)
+![Followers vs Average Likes](figures/followers_vs_likes.png)
 
 This scatter plot shows the relationship between follower count and average likes.
 
@@ -164,10 +164,10 @@ Key observations:
 - Influencers with more followers generally receive more likes.
 - However, the relationship is not perfectly linear because engagement also depends on content quality and audience interaction.
 
-```markdown
+
 ### Correlation Heatmap
-```
-![Correlation Heatmap](heatmap.png)
+
+![Correlation Heatmap](figures/heatmap.png)
 
 This heatmap visualizes the relationships between Instagram engagement variables.
 
@@ -180,7 +180,7 @@ Key observations:
 
 ### Followers vs Engagement Rate
 
-![Followers vs Engagement](followers_vs_engagement.png)
+![Followers vs Engagement](figures/followers_vs_engagement.png)
 
 This graph illustrates the relationship between follower count and engagement rate.
 
@@ -192,7 +192,7 @@ Key observations:
 
 ### Top 10 Influencers by Engagement Rate
 
-![Top Engagement](top_engagement.png)
+![Top Engagement](figures/top_engagement.png)
 
 This chart shows the influencers with the highest engagement rates.
 
@@ -205,7 +205,7 @@ Key observations:
   
 ### Influence Score vs Average Likes
 
-![Influence Score vs Average Likes](influence_score_vs_likes.png)
+![Influence Score vs Average Likes](figures/influence_score_vs_likes.png)
 
 This graph shows the relationship between influence score and average likes.
 
@@ -217,7 +217,7 @@ Key observations:
 
   
 ### Country-Based Engagement Comparison
-![Country Engagement](country_engagement.png)
+![Country Engagement](figures/country_engagement.png)
 
 This graph compares average engagement rates across countries.
 
@@ -228,7 +228,7 @@ Key observations:
 - Country demographics may influence interaction patterns.
 
 ### Actual vs Predicted Engagement
-![Actual vs Predicted Engagement](actual_vs_predicted.png)
+![Actual vs Predicted Engagement](figures/actual_vs_predicted.png)
 
 This graph compares actual engagement values with machine learning predictions.
 
@@ -239,7 +239,7 @@ Key observations:
 - Followers and influence score partially explain engagement behavior.
 
 ### Feature Importance – Random Forest
-![Feature Importance](feature_importance.png)
+![Feature Importance](figures/feature_importance.png)
 
 This graph shows which variables contribute most to engagement prediction in the Random Forest model.
 
