@@ -1,5 +1,4 @@
 # DSA210 Term Project: Analyzing Instagram Influencer Engagement
-```markdown
 ## Table of Contents
 
 1. Motivation
@@ -13,12 +12,11 @@
 9. Conclusion
 10. Limitations and Future Work
 11. AI Usage and Academic Integrity
-```
 
 ## Project Overview
+
 ## Repository Structure
 
-```text
 DSA210-sila-ozturkler/
 │
 ├── data/
