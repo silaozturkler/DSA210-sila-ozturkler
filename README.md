@@ -16,6 +16,34 @@
 ```
 
 ## Project Overview
+## Repository Structure
+
+```text
+DSA210-sila-ozturkler/
+│
+├── data/
+│   └── dataset.csv
+│
+├── figures/
+│   ├── actual_vs_predicted.png
+│   ├── country_engagement.png
+│   ├── feature_importance.png
+│   ├── followers_vs_engagement.png
+│   ├── followers_vs_likes.png
+│   ├── heatmap.png
+│   ├── influence_score_vs_likes.png
+│   └── top_engagement.png
+│
+├── notebooks/
+│   ├── 01_data_analysis.ipynb
+│   └── 02_machine_learning.ipynb
+│
+├── reports/
+│   └── dsa210proposalnew.pdf
+│
+├── README.md
+└── requirements.txt
+```
 
 This project investigates Instagram influencer engagement patterns using exploratory data analysis, visualization techniques, and machine learning models.
 
@@ -296,3 +324,13 @@ All analysis decisions, interpretations, and final outputs were reviewed and org
 The project follows academic integrity principles and uses AI only as a supportive educational tool.
 ---
 Developed as part of the DSA210 Introduction to Data Science course project.
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
