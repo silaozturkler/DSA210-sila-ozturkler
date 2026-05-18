@@ -14,6 +14,7 @@
 11. AI Usage and Academic Integrity
 
 ## Project Overview
+
 ## Project Files
 
 ### Notebooks
@@ -329,13 +330,6 @@ Future studies could include:
 - Time-series engagement prediction
 - Deep learning models
 
-## 11. AI Usage and Academic Integrity
-
-Artificial Intelligence tools, including ChatGPT, were used to support coding assistance, debugging, and text editing during this project.
-
-All analysis decisions, interpretations, and final outputs were reviewed and organized by the student.
-
-The project follows academic integrity principles and uses AI only as a supportive educational tool.
 ---
 ## Technologies Used
 
@@ -348,5 +342,13 @@ The project follows academic integrity principles and uses AI only as a supporti
 - Jupyter Notebook
 
 ---
+
+## 11. AI Usage and Academic Integrity
+
+Artificial Intelligence tools, including ChatGPT, were used to support coding assistance, debugging, and text editing during this project.
+
+All analysis decisions, interpretations, and final outputs were reviewed and organized by the student.
+
+The project follows academic integrity principles and uses AI only as a supportive educational tool.
 
 Developed as part of the DSA210 Introduction to Data Science course project.
