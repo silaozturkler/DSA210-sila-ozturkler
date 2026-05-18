@@ -337,8 +337,6 @@ All analysis decisions, interpretations, and final outputs were reviewed and org
 
 The project follows academic integrity principles and uses AI only as a supportive educational tool.
 ---
-Developed as part of the DSA210 Introduction to Data Science course project.
-
 ## Technologies Used
 
 - Python
@@ -348,3 +346,7 @@ Developed as part of the DSA210 Introduction to Data Science course project.
 - Seaborn
 - Scikit-learn
 - Jupyter Notebook
+
+---
+
+Developed as part of the DSA210 Introduction to Data Science course project.
