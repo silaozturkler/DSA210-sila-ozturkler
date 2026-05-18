@@ -41,6 +41,7 @@ DSA210-sila-ozturkler/
 │
 ├── figures/
 │   ├── actual_vs_predicted.png
+│   ├── loglogplot.png
 │   ├── country_engagement.png
 │   ├── feature_importance.png
 │   ├── followers_vs_engagement.png
@@ -232,6 +233,18 @@ Key observations:
 - Influencers with very large audiences may have lower engagement rates.
 - Smaller influencers sometimes achieve stronger audience interaction.
 - Follower count alone does not determine engagement quality.
+  
+### Log-Log Analysis
+
+![Log-Log Plot](figures/loglogplot.png)
+
+This log-log scatter plot visualizes the relationship between follower count and average likes using logarithmic scales.
+
+Key observations:
+
+- Logarithmic scaling reduces the effect of extreme outliers.
+- A clearer positive relationship between followers and average likes can be observed.
+- Influencers with larger audiences generally receive more likes, although engagement patterns still vary across accounts.
 
 ### Top 10 Influencers by Engagement Rate
 
