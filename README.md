@@ -17,6 +17,8 @@
 
 ## Repository Structure
 
+```text
+
 DSA210-sila-ozturkler/
 │
 ├── data/
@@ -42,6 +44,7 @@ DSA210-sila-ozturkler/
 ├── README.md
 └── requirements.txt
 
+```
 
 This project investigates Instagram influencer engagement patterns using exploratory data analysis, visualization techniques, and machine learning models.
 
