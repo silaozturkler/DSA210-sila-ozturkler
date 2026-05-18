@@ -14,6 +14,20 @@
 11. AI Usage and Academic Integrity
 
 ## Project Overview
+## Project Files
+
+### Notebooks
+
+- [01 Data Analysis Notebook](notebooks/01_data_analysis.ipynb)
+- [02 Machine Learning Notebook](notebooks/02_machine_learning.ipynb)
+
+### Dataset
+
+- [Dataset CSV](data/dataset.csv)
+
+### Final Report
+
+- [Final Project Report PDF](reports/DSA210_Final_Report_Sila_Ozturkler.pdf)
 
 ## Repository Structure
 
