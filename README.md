@@ -135,7 +135,6 @@ Missing values and duplicated rows were removed before analysis.
 | Influence Score | Overall influencer popularity score | Used to analyze influencer performance |
 | Country | Country information of the influencer | Used for country-based comparison |
 
-
 ## Dataset Description
 
 The dataset contains Instagram influencer statistics collected from publicly available sources.
